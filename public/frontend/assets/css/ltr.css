@@ -1,0 +1,9 @@
+@font-face {
+    /* font-family: Cairo;
+    src: url("../fonts/Cairo/Cairo-VariableFont_wght.ttf") format("opentype"); */
+}
+body {
+    /* font-family: Cairo; */
+    direction: ltr;
+}
+/* topbar */

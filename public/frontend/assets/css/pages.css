@@ -1,0 +1,126 @@
+
+.home-product {
+    background-image: url(../images/back-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+    margin: 80px 0;
+}
+.home-product::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #94c7eb;
+    opacity: 0.8;
+}
+.home-product .home-item {
+    padding: 0 20px;
+}
+.home-product .home-title {
+    margin: 22px 0;
+    font-weight: unset;
+    letter-spacing: unset;
+}
+
+
+/*  */
+.section-details {
+    padding: 0 20px;
+}
+.select {
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.quantity-count {
+    margin: 40px 0;
+}
+.all-color , .quantity-count , .tags , .share-with {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inc-dec {
+    border: 1px solid #c1b7b7;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+.number {
+    padding: 0 15px;
+}
+.color-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.item-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.color-list .item-color:first-child {
+    background-color: #ff502e;
+}
+.color-list .item-color:nth-child(2) {
+    background-color: #fff600;
+}
+.color-list .item-color:last-child {
+    background-color: #1b2436;
+}
+.product-action , .tag-list , .share-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+.cart {
+    background-color: #94c7eb;
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+.random , .heart {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #94c7eb;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.tags {
+    margin: 40px 0;
+}
+.product-information {
+    margin: 40px 0;
+}
+.tab-pane {
+    padding: 25px 0;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #000 !important;
+}
+.nav-tabs .nav-link {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 0;
+    padding: 15px 15px 15px 0;
+}
+
+.related-section .flex-control-nav {
+    display: none;
+}
+
+.product-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .related-section  .ratting {
+    justify-content: start !important;
+ }

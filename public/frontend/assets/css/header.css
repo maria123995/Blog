@@ -1,0 +1,37 @@
+/* .spinner {
+    background-color: #fff;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+    z-index: 99999;
+}
+
+.spinner-hidden {
+    opacity: 0;
+    visibility: hidden;
+} */
+/* ************************************header***********************
+******************************************************************* */
+header {
+    /* position: fixed;
+    top: 0 !important;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: unset; */
+}
+.header-scrolled {
+    /* background-color: rgb(253 248 244);
+    box-shadow: var(--box-shadow); */
+}
+/* *******************************topbar******************************* */
+
+
+/* *******************************middlebar******************************* */
+
+
